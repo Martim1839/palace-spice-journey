@@ -1,16 +1,13 @@
-import heroDish from "@/assets/image-4.png.asset.json";
-import interior from "@/assets/image.png.asset.json";
-import bar from "@/assets/image-2.png.asset.json";
-import samosa from "@/assets/image-3.png.asset.json";
-import kormaAsset from "@/assets/image-5.png.asset.json";
-
-const korma = kormaAsset as { url: string };
-
-import biryani from "@/assets/image-6.png.asset.json";
-import naan from "@/assets/image-7.png.asset.json";
-import wine from "@/assets/image-8.png.asset.json";
-import thali from "@/assets/thali.png.asset.json";
-import cocktail from "@/assets/cocktail.png.asset.json";
+import heroDish from "@/assets/image-4.jpg";
+import interior from "@/assets/image.jpg";
+import bar from "@/assets/image-2.jpg";
+import samosa from "@/assets/image-3.jpg";
+import korma from "@/assets/image-5.jpg";
+import biryani from "@/assets/image-6.jpg";
+import naan from "@/assets/image-7.jpg";
+import wine from "@/assets/image-8.jpg";
+import thali from "@/assets/thali.jpg";
+import cocktail from "@/assets/cocktail.jpg";
 
 export const INFO = {
   name: "Indian Palace",
