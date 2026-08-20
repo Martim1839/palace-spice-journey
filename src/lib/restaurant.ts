@@ -1,16 +1,13 @@
-import heroDish from "@/assets/image-4.png.asset.json";
-import interior from "@/assets/image.png.asset.json";
-import bar from "@/assets/image-2.png.asset.json";
-import samosa from "@/assets/image-3.png.asset.json";
-import kormaAsset from "@/assets/image-5.png.asset.json";
-
-const korma = kormaAsset as { url: string };
-
-import biryani from "@/assets/image-6.png.asset.json";
-import naan from "@/assets/image-7.png.asset.json";
-import wine from "@/assets/image-8.png.asset.json";
-import thali from "@/assets/thali.png.asset.json";
-import cocktail from "@/assets/cocktail.png.asset.json";
+import heroDish from "@/assets/image-4.jpg";
+import interior from "@/assets/image.jpg";
+import bar from "@/assets/image-2.jpg";
+import samosa from "@/assets/image-3.jpg";
+import korma from "@/assets/image-5.jpg";
+import biryani from "@/assets/image-6.jpg";
+import naan from "@/assets/image-7.jpg";
+import wine from "@/assets/image-8.jpg";
+import thali from "@/assets/thali.jpg";
+import cocktail from "@/assets/cocktail.jpg";
 
 export const INFO = {
   name: "Indian Palace",
@@ -34,20 +31,20 @@ export const INFO = {
 
 export const IMAGES = {
   // hero-01.jpg: prato de assinatura
-  hero: heroDish.url,
+  hero: heroDish,
   // sobre-01.jpg: interior / esplanada
-  about: interior.url,
+  about: interior,
   gallery: [
-    { src: thali.url, alt: "Mesa completa com curries, biryani e naan", slot: "galeria-01.jpg", span: "wide" },
-    { src: heroDish.url, alt: "Butter Chicken cremoso", slot: "galeria-02.jpg", span: "tall" },
-    { src: interior.url, alt: "Sala de jantar do Indian Palace", slot: "galeria-03.jpg", span: "normal" },
-    { src: biryani.url, alt: "Biryani aromático", slot: "galeria-04.jpg", span: "normal" },
-    { src: samosa.url, alt: "Samosa crocante com salada", slot: "galeria-05.jpg", span: "normal" },
-    { src: cocktail.url, alt: "Cocktail de manga preparado no bar", slot: "galeria-06.jpg", span: "tall" },
-    { src: bar.url, alt: "Bar do restaurante", slot: "galeria-07.jpg", span: "wide" },
-    { src: naan.url, alt: "Naan de alho e coentros", slot: "galeria-08.jpg", span: "normal" },
-    { src: korma.url, alt: "Caril de camarão com côco", slot: "galeria-09.jpg", span: "normal" },
-    { src: wine.url, alt: "Garrafeira e sala vermelha", slot: "galeria-10.jpg", span: "normal" },
+    { src: thali, alt: "Mesa completa com curries, biryani e naan", slot: "galeria-01.jpg", span: "wide" },
+    { src: heroDish, alt: "Butter Chicken cremoso", slot: "galeria-02.jpg", span: "tall" },
+    { src: interior, alt: "Sala de jantar do Indian Palace", slot: "galeria-03.jpg", span: "normal" },
+    { src: biryani, alt: "Biryani aromático", slot: "galeria-04.jpg", span: "normal" },
+    { src: samosa, alt: "Samosa crocante com salada", slot: "galeria-05.jpg", span: "normal" },
+    { src: cocktail, alt: "Cocktail de manga preparado no bar", slot: "galeria-06.jpg", span: "tall" },
+    { src: bar, alt: "Bar do restaurante", slot: "galeria-07.jpg", span: "wide" },
+    { src: naan, alt: "Naan de alho e coentros", slot: "galeria-08.jpg", span: "normal" },
+    { src: korma, alt: "Caril de camarão com côco", slot: "galeria-09.jpg", span: "normal" },
+    { src: wine, alt: "Garrafeira e sala vermelha", slot: "galeria-10.jpg", span: "normal" },
   ],
 };
 
