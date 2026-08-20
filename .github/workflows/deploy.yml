@@ -22,6 +22,8 @@ jobs:
       - run: npm install
 
       - run: npm run build
+        env:
+          GITHUB_PAGES_BASE: /palace-spice-journey/
 
       - name: Inspect build
         run: |
