@@ -31,20 +31,20 @@ export const INFO = {
 
 export const IMAGES = {
   // hero-01.jpg: prato de assinatura
-  hero: heroDish.url,
+  hero: heroDish,
   // sobre-01.jpg: interior / esplanada
-  about: interior.url,
+  about: interior,
   gallery: [
-    { src: thali.url, alt: "Mesa completa com curries, biryani e naan", slot: "galeria-01.jpg", span: "wide" },
-    { src: heroDish.url, alt: "Butter Chicken cremoso", slot: "galeria-02.jpg", span: "tall" },
-    { src: interior.url, alt: "Sala de jantar do Indian Palace", slot: "galeria-03.jpg", span: "normal" },
-    { src: biryani.url, alt: "Biryani aromático", slot: "galeria-04.jpg", span: "normal" },
-    { src: samosa.url, alt: "Samosa crocante com salada", slot: "galeria-05.jpg", span: "normal" },
-    { src: cocktail.url, alt: "Cocktail de manga preparado no bar", slot: "galeria-06.jpg", span: "tall" },
-    { src: bar.url, alt: "Bar do restaurante", slot: "galeria-07.jpg", span: "wide" },
-    { src: naan.url, alt: "Naan de alho e coentros", slot: "galeria-08.jpg", span: "normal" },
-    { src: korma.url, alt: "Caril de camarão com côco", slot: "galeria-09.jpg", span: "normal" },
-    { src: wine.url, alt: "Garrafeira e sala vermelha", slot: "galeria-10.jpg", span: "normal" },
+    { src: thali, alt: "Mesa completa com curries, biryani e naan", slot: "galeria-01.jpg", span: "wide" },
+    { src: heroDish, alt: "Butter Chicken cremoso", slot: "galeria-02.jpg", span: "tall" },
+    { src: interior, alt: "Sala de jantar do Indian Palace", slot: "galeria-03.jpg", span: "normal" },
+    { src: biryani, alt: "Biryani aromático", slot: "galeria-04.jpg", span: "normal" },
+    { src: samosa, alt: "Samosa crocante com salada", slot: "galeria-05.jpg", span: "normal" },
+    { src: cocktail, alt: "Cocktail de manga preparado no bar", slot: "galeria-06.jpg", span: "tall" },
+    { src: bar, alt: "Bar do restaurante", slot: "galeria-07.jpg", span: "wide" },
+    { src: naan, alt: "Naan de alho e coentros", slot: "galeria-08.jpg", span: "normal" },
+    { src: korma, alt: "Caril de camarão com côco", slot: "galeria-09.jpg", span: "normal" },
+    { src: wine, alt: "Garrafeira e sala vermelha", slot: "galeria-10.jpg", span: "normal" },
   ],
 };
 
