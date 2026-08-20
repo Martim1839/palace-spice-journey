@@ -4,7 +4,7 @@ export default defineConfig({
   nitro: false,
 
   vite: {
-    base: "/indian-palace-project/",
+    base: "/palace-spice-journey/",
   },
 
   tanstackStart: {
